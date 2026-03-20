@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 3000;
 // ───── Routes ─────
 
 app.get("/", (req, res) => {
-  res.json({ message: "Serveur Node.js sur Firebase App Hosting !" });
+  res.json({ message: "Serveur Express sur Firebase App Hosting !" });
 });
 
 app.get("/hello/:nom", (req, res) => {
